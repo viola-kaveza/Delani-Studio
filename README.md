@@ -27,5 +27,7 @@ Boostrap 4
 
 Javascript
 
+Jquery
+
 # Licence
 Licensed under the MIT license.
