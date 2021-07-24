@@ -12,7 +12,7 @@ This is a site which mainly deals with product management,design and development
 # Setup/Installation Requirements
 Open terminal (CTRL ALT T)
 
-git clone https://viola-kaveza.github.io/Akan-Name/
+git clone  https://viola-kaveza.github.io/Delani-Studio/
 
 cd portfolio easy-to-understand use atom . or code . to open the clone repo on Atom or VS-code respectively
 
