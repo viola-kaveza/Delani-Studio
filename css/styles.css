@@ -94,30 +94,40 @@
 #name,
 #email,
 #textarea {
-	background: transparent;
-	color: white;
+	/* Style inputs with type="text", select elements and textareas */
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */ 
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 .contactme {
 	background: url(../assets/backgrounds/c_image.jpg);
-	height: 80vh;
+	height: 100vh;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: white;
 }
 
-#submit {
-	background-color: blue;
+
+.button {
+	background-color: #4CAF50; /* Green */
 	border: none;
 	color: white;
-	padding: 16px 32px;
+	padding: 14px 40px;
+	text-align: center;
 	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
 	cursor: pointer;
-}
-/* .mycontact{
-
-} */
+  }
+  
 .mouse {
 	animation: pulse 5s infinite;
 	padding-top: 2vh;
