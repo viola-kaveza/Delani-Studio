@@ -8,3 +8,10 @@ Akan Name comes from a traditional naming system for Ghana.A child's name is det
 
 # LIVE-LINK
 https://viola-kaveza.github.io/Akan-Name/
+
+# Setup/Installation Requirements
+Open terminal (CTRL ALT T)
+
+git clone https://viola-kaveza.github.io/Akan-Name/
+
+cd portfolio easy-to-understand use atom . or code . to open the clone repo on Atom or VS-code respectively
