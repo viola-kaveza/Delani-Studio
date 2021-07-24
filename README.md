@@ -7,7 +7,7 @@ Viola Kaveza
 This is a site which mainly deals with product management,design and development.
 
 # LIVE-LINK
-https://viola-kaveza.github.io/Akan-Name/
+ https://viola-kaveza.github.io/Delani-Studio/
 
 # Setup/Installation Requirements
 Open terminal (CTRL ALT T)
