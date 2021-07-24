@@ -26,3 +26,6 @@ GIT (for version control)
 Boostrap 4
 
 Javascript
+
+# Licence
+Licensed under the MIT license.
