@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+
+.landingpage {
+	background: url(../assets/backgrounds/h_img.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+.landingtext {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+}
+
+.about {
+	text-align: center;
+
+
+}
+
+.myport {
+	text-align: center !important;
+}
+
+.whatwedo {
+	display: flex;
+	justify-content: space-around;
+}
+
+.service {
+	background: url(../assets/backgrounds/s_image.jpg);
+	position: relative;
+	background-position: center;
+	width: 100%;
+	height: 60vh;
+	left: 0;
+	top: 0;
+	background-repeat: no-repeat;
+}
+
+.service2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+
+}
+
+.we-do {
+	text-align: center;
+	padding-top: 2%;
+}
+
+#we {
+	margin-left: 0%;
+}
+
+
+.overlay {
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding: 30px;
+	background-color: transparent;
+	border-style: solid;
+	border-width: medium;
+	font-weight: bold;
+	color: white;
+	display: none;
+}
+
+.imagehover:hover {
+	opacity: 0.3;
+}
+
+#name,
+#email,
+#textarea {
+	background: transparent;
+	color: white;
+}
+
+.contactme {
+	background: url(../assets/backgrounds/c_image.jpg);
+	height: 80vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+#submit {
+	background-color: blue;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	cursor: pointer;
+}
+/* .mycontact{
+
+} */
+.mouse {
+	animation: pulse 5s infinite;
+	padding-top: 2vh;
+	animation-duration: 2s;
+	animation-name: mymouse;
+}
+
+@keyframes mymouse {
+
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-30px);
+	}
+
+	60% {
+		transform: translateY(-15px);
+	}
+}
